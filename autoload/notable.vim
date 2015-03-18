@@ -8,7 +8,7 @@ function! s:pwd()
 endfunction
 
 function! s:path_to_notes_file()
-  return g:notable_notes_folder . s:pwd() . ".txt"
+  return g:notable_notes_folder . s:pwd() . ".markdown"
 endfunction
 
 function! notable#open_notes_file()
